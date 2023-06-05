@@ -2,11 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-.header, .footer{
+.header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100vw;
     left: 0;
     right: 0;
@@ -43,6 +46,11 @@ body {
     background-color: #1f2937;
 }
 
+.website-info p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
 .look-button {
     display: flex;
 }
@@ -69,11 +77,9 @@ button {
 
 .action-section {
     display: flex;
-    padding: 24px;
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
-    margin: 50px;
     border-radius: 8px;
 }
 
@@ -105,6 +111,8 @@ button {
 
 .copyright {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -118,4 +126,14 @@ button {
 ul {
     padding: 0;
     list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #1f2937;
 }
