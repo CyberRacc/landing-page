@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #1f2937;
+    max-height: 100vh;
+}
+
+.logo {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    height: ;
+}
+
+.website-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 8px;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    width: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
