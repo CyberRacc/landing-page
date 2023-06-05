@@ -17,11 +17,21 @@ body {
 
 .logo {
     display: flex;
+    padding: 8px;
+}
+
+.links {
+    display: flex;
+    text-decoration: none;
+}
+
+.links a {
+    text-decoration: none;
 }
 
 .content {
     display: flex;
-    height: ;
+    height: calc(100vh - 100px);
 }
 
 .website-info {
@@ -39,6 +49,14 @@ button {
     width: 100px;
 }
 
+.image-section {
+    display: flex;
+}
+
+.action-section {
+    display: flex;
+}
+
 .footer {
     display: flex;
     width: 0;
@@ -48,4 +66,10 @@ button {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
+    padding: 12px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
 }
