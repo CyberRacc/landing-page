@@ -1,28 +1,29 @@
 body {
     display: flex;
     flex-direction: column;
+    max-height: 100vh;
 }
 
-.header {
+.header, .footer{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    width: 0;
+    width: 100vw;
     left: 0;
     right: 0;
     height: 50px;
     background-color: #1f2937;
-    max-height: 100vh;
 }
 
 .logo {
     display: flex;
     padding: 8px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .links {
     display: flex;
-    text-decoration: none;
 }
 
 .links a {
@@ -31,6 +32,7 @@ body {
 
 .content {
     display: flex;
+    flex-direction: column;
     height: calc(100vh - 100px);
 }
 
@@ -57,16 +59,19 @@ button {
     display: flex;
 }
 
-.footer {
+.quote-section {
     display: flex;
-    width: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background-color: #1f2937;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
+    background-color: #e5e7eb;
+}
+
+.copyright {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
 }
 
 ul {
