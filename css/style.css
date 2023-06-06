@@ -10,7 +10,7 @@ body {
 
 .header {
     display: flex;
-    height: 70px;
+    height: 50px;
     width: 100%;
     background-color: #1f2937;
     flex-shrink: 0;
@@ -52,31 +52,40 @@ body {
 .info-area {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
     background-color: #1f2937;
+    height: 450px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    flex-grow: 0;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
     margin-left: 24px;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .info-heading {
-    display: flex;
-    flex-direction: column;
     font-size: 48px;
     font-weight: 700;
     color: #e5e7eb;
 }
 
 .info-para {
-    display: flex;
-    flex-direction: column;
     font-size: 18px;
     font-weight: normal;
     color: #e5e7eb;
+    margin-top: -50px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 
 .info-button button {
@@ -87,7 +96,7 @@ body {
     font-weight: 600;
     width: 140px;
     padding: 8px;
-    margin: 12px;
+    margin-top: 16px;
 }
 
 .info-image {
@@ -138,7 +147,7 @@ body {
 
 .image-box img {
     border: 4px solid #3882f6;
-    border-radius: 8px;
+    border-radius: 6px;
     height: 150px;
     width: 150px;
 }
@@ -155,8 +164,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
-    border-radius: 8px;
-    flex: 1 0 600px;
+    border-radius: 6px;
     padding: 12px 36px;
 }
 
@@ -173,11 +181,17 @@ body {
 .buynow button {
     color: #e5e7eb;
     background-color: #3882f6;
-    border: 3px solid #f9faf8;
-    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
     font-size: 18px;
     font-weight: 600;
     width: 120px;
+    padding: 8px;
+}
+
+.buynow button a {
+    text-decoration: none;
+    color: white;
 }
 
 .quote-section {
@@ -193,6 +207,10 @@ body {
     color: #1f2937;
     text-align: center;
     font-style: italic;
+}
+
+.quote-end {
+    padding-left: 400px;
 }
 
 .footer {
