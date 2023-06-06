@@ -99,6 +99,11 @@ body {
     margin-top: 16px;
 }
 
+.info-button button a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 .info-image {
     display: flex;
     flex-direction: column;
@@ -211,6 +216,13 @@ body {
 
 .quote-end {
     padding-left: 400px;
+}
+
+.racc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
 }
 
 .footer {
