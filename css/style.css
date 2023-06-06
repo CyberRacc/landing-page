@@ -10,18 +10,27 @@ body {
 
 .header {
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     width: 100%;
     background-color: #1f2937;
     flex-shrink: 0;
+    color: #e5e7eb;
+}
+
+.header-content {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #e5e7eb;
+    width: 900px;
+
 }
 
 .logo {
     display: flex;
-    margin-left: 32px;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
     color: #f9faf8;
     flex-shrink: 0;
@@ -30,12 +39,11 @@ body {
 
 .links {
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
 }
 
 .links li {
     list-style-type: none;
-    margin-right: 32px;
 }
 
 .links a {
@@ -46,20 +54,14 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
 }
 
 .info-area {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     height: 450px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    flex-grow: 0;
 }
 
 .info-section {
@@ -67,10 +69,13 @@ body {
     flex-direction: column;
     align-items: space-between;
     justify-content: center;
-    margin-left: 24px;
-    flex-basis: 400px;
-    flex-grow: 0;
-    flex-shrink: 0;
+    width: 900px;
+}
+
+.info-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-heading {
