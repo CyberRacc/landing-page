@@ -83,6 +83,7 @@ button {
     padding: 24px;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .image-heading {
@@ -91,17 +92,26 @@ button {
 
 .image-boxes {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 150px;
+    height: 200px;
 }
 
 .image-box img {
-    border-width: 8px;
-    border-radius: 32px;
-    border-color: #3882f6;
+    display: flex;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
 }
 
 .action-area {
