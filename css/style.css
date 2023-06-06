@@ -3,18 +3,20 @@
 body {
     display: flex;
     flex-direction: column;
-    max-height: calc(100vh - 100px);
+    min-height: 100vh;
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .header {
     display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: #1f2937;
+    flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
-    flex: 1 0 auto;
-    height: 50px;
-    background-color: #1f2937;
+    color: #e5e7eb;
 }
 
 .website-desc {
@@ -28,18 +30,24 @@ body {
 
 .logo {
     display: flex;
-    padding: 12px 16px;
+    margin-left: 32px;
     font-size: 24px;
     color: #f9faf8;
 }
 
 .links {
     display: flex;
-    
+    justify-content: space-between;
+}
+
+.links li {
+    list-style-type: none;
+    margin-right: 32px;
 }
 
 .links a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 .content {
@@ -77,7 +85,6 @@ body {
 }
 
 .this-is-a-website {
-    display: flex;
     width: 500px;
 }
 
@@ -86,6 +93,7 @@ body {
     flex-direction: column;
     width: 200px;
     height: auto;
+    margin: 50px;
 }
 
 
@@ -96,7 +104,6 @@ button {
 
 .image-section {
     display: flex;
-    padding: 24px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: column;
@@ -133,7 +140,6 @@ button {
 }
 
 .image-box img {
-    display: flex;
     border: 4px solid #3882f6;
     border-radius: 8px;
     height: 150px;
@@ -164,7 +170,6 @@ button {
 }
 
 .buynow {
-    display: flex;
     padding-left: 32px;
 }
 
@@ -187,23 +192,15 @@ button {
 }
 
 .quote {
-    display: flex;
     font-size: 36px;
     color: #1f2937;
     text-align: center;
     font-style: italic;
 }
 
-
-ul {
-    padding: 0;
-    list-style-type: none;
-}
-
 .footer {
     display: flex;
-    bottom: 0;
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: #1f2937;
     flex-shrink: 0;
