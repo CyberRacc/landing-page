@@ -39,7 +39,7 @@ body {
 
 .links {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 .links li {
@@ -61,18 +61,25 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    height: 450px;
 }
 
 .info-section {
     display: flex;
-    flex-direction: column;
-    align-items: space-between;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     width: 900px;
+    height: 400px;
+    padding-bottom: 70px;
 }
 
 .info-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.info-right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +104,7 @@ body {
     color: #e5e7eb;
     background-color: #3882f6;
     border-radius: 10px;
+    border: none;
     font-size: 18px;
     font-weight: 600;
     width: 140px;
@@ -114,8 +122,8 @@ body {
     flex-direction: column;
     flex-grow: 0;
     flex-shrink: 0;
-    width: 350px;
-    margin: 50px;
+    width: 300px;
+    height: auto;
 }
 
 .image-section {
@@ -135,14 +143,20 @@ body {
     align-items: center;
     padding: 12px;
 }
+.image-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .image-boxes {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 24px;
+    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 24px;
     flex-grow: 0;
+    flex-basis: 900px;
 }
 
 .image-box {
@@ -175,13 +189,16 @@ body {
     align-items: center;
     background-color: #3882f6;
     border-radius: 6px;
-    padding: 12px 36px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 900px;
+    gap: 150px;
 }
 
 .action {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    color: #e5e7eb;
 }
 
 .buynow {
